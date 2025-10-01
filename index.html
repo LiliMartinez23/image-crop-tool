@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Crop Tool</title>
-    <link rel="stylesheet" href="./node_modules/cropperjs/dist/cropper.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cropperjs@1.6.2/dist/cropper.min.css">
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div>
+            <img src="nature-photo.jpg" id="image">
+            <button id="cropImageButton">Crop Image</button>
+        </div>
 
-    <script src="./node_modules/cropperjs/dist/cropper.min.js"></script>
+        <img src="" id="output">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/cropperjs@1.6.2/dist/cropper.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
