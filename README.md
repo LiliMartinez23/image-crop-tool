@@ -1,2 +1,1 @@
-# image-crop-tool
-Image Crop Tool
+# Image Crop Tool
